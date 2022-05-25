@@ -36,6 +36,7 @@ public class XUrlMain {
     assert(xUrl.getUrl(url2).equals(xUrl.getUrl(url4)));
     assert(xUrl.getUrl(url5).equals("http://abc5.com"));
     
+    //System.out.println("test"+xUrl.getHitCount("http://abc2.com"));
     // Test out getHitCount() for a given long URL. 
     // Here the same long URL has been looked up 2 times as part of url2 & url4
     assert(xUrl.getHitCount("http://abc2.com").equals(2));
